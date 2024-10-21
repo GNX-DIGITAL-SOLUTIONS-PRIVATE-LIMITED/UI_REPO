@@ -1,0 +1,248 @@
+/* E:\gnx\Nextjs\formdesign\styles\empstyles.css */
+.contact-section {
+    margin-bottom: 2rem; /* Space below the contact section */
+  }
+  
+  .phone-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; /* Space below the phone group */
+  }
+  
+  .contact-row {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .country-dropdown,
+  .country-code,
+  .phone-input {
+    margin-right: 1rem; /* Space between each input */
+  }
+  
+  .country-code-input,
+  .phone-number-input {
+    width: 150px; /* Set a width for the inputs */
+  }
+  
+  label {
+    display: block; /* Make labels block elements for spacing */
+    margin-bottom: 0.5rem; /* Space between label and input */
+  }
+  
+  input[type="email"],
+  textarea {
+    width: 100%; /* Full width for email and address */
+    margin-bottom: 1rem; /* Space below email and address inputs */
+  }
+body {
+  background-color: #f0f8ff; /* Light blue background for the entire body */
+margin: 0;
+    padding: 80px;
+
+}
+
+h1 {
+  text-align: center; /* Center the title */
+  background-color: #007bff; /* Blue background for the title */
+  color: white; /* White text color */
+  padding: 10px; /* Add some padding for spacing */
+  margin: 0; /* Remove default margin */
+}
+
+form {
+  background-color: #e6f7ff; /* Light blue background for the form */
+  border-radius: 5px; /* Rounded corners for the form */
+  padding: 20px; /* Padding inside the form */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+fieldset {
+  border: 2px solid #007bff; /* Blue border for fieldsets */
+  border-radius: 5px; /* Rounded corners for fieldsets */
+  margin-bottom: 20px; /* Space between fieldsets */
+  padding: 10px; /* Padding inside the fieldset */
+}
+
+legend {
+  color: #007bff; /* Blue color for the fieldset title */
+  font-weight: bold; /* Bold text for fieldset title */
+  font-size: 1.2em; /* Larger font size for fieldset title */
+}
+  
+
+  .form-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .form-group label {
+    flex: 1; /* Each label takes equal space */
+    margin-right: 10px; /* Space between label and input */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea,
+  select {
+    flex: 2; /* Inputs take double the space of labels */
+    padding: 8px;
+    margin-left:8px;
+    margin-right:8px;
+    margin-Top:8px;
+    margin-bottom:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     /* Reduce the height of textboxes */
+  }
+  
+  textarea {
+    height: auto; /* Default height for textarea */
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+ 
+button {
+    background-color: #007bff; /* Blue background for buttons */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding around the text */
+    cursor: pointer; /* Pointer cursor on hover */
+    height: 40px; /* Set a consistent height */
+    line-height: 20px; /* Align text vertically within the button */
+    text-align: center; /* Center text horizontally */
+    font-size: 16px; /* Adjust font size */
+    display: inline-block; /* Allow width adjustment */
+    margin: 5px; /* Add some space around the button */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Add hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add focus effect */
+button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #0056b3; /* Add shadow on focus */
+}
+ 
+  
+  .checkbox-group,
+.radio-group {
+  display: flex;
+  flex-wrap: wrap; /* Wrap options to the next line */
+}
+
+.checkbox-group label,
+.radio-group label {
+  flex: 1 0 45%; /* Each checkbox/radio takes a little less than half the row */
+  margin: 8px; /* Space around each label */
+}
+
+/* Optional: Adjust the margin for spacing between checkboxes */
+.checkbox-group input[type="checkbox"],
+.radio-group input[type="radio"] {
+  margin-right: 5px; /* Space between checkbox and label */
+}
+.radio-group {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    margin-bottom: 16px; /* Add some space below the group */
+  }
+  
+  .radio-group label {
+    flex: 1 0 45%; /* Each label takes up to 45% of the width */
+    margin: 8px; /* Space around each label */
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+  }
+/* Form container */
+.form-container {
+  background-color: #e6f7ff; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 0 auto; /* Center form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+.form-title {
+  color: #003366; /* Dark blue for main headings */
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Section titles */
+.section-title {
+  color: #003366; /* Dark blue for section headings */
+  font-size: 18px;
+  margin-bottom: 20px;
+	 margin-top: 20px;
+
+  border-bottom: 2px solid #003366; /* Underline section titles */
+  padding-bottom: 2px;
+}
+
+
+/* Form group layout */
+.form-group {
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Space between sections */
+}
+
+/* Styling for experience table */
+.experience-table {
+  width: 100%;
+  border-collapse: collapse; /* Remove gaps between borders */
+  margin-top: 10px;
+}
+
+.experience-table th, .experience-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.experience-table th {
+  background-color: #cce5ff; /* Light blue background for table header */
+  color: #003366; /* Dark blue text */
+}
+
+.experience-table td {
+  background-color: #f9f9f9; /* Light background for table rows */
+}
+
+/* Other elements */
+p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Button styling (if needed) */
